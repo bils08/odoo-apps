@@ -12,18 +12,6 @@
         </field>
     </record>
 
-<!--     <record id="my_item_tree_view_id" model="ir.ui.view">-->
-<!--        <field name="name">my_item_tree_view_id</field>-->
-<!--        <field name="model">my.item</field>-->
-<!--        <field name="arch" type="xml">-->
-<!--            <xpath>-->
-<!--                <field name="name"/>-->
-<!--                <field name="tanggal"/>-->
-<!--                <field name="status"/>-->
-<!--            </xpath>-->
-<!--        </field>-->
-<!--    </record>-->
-
     <record id="my_item_kanban_view_id" model="ir.ui.view">
         <field name="name">my_item_kanban_view_id</field>
         <field name="model">my.item</field>
