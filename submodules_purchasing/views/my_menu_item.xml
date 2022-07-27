@@ -8,6 +8,6 @@
             id="child_my_item_id"
             name="Purchasing"
             sequence="1"
-            parent="my_module.parent_my_item_id"
-            action="my_module.purchasing_actions_id"/>
+            parent="submodules_purchasing.parent_my_item_id"
+            action="submodules_purchasing.purchasing_actions_id"/>
 </odoo>
