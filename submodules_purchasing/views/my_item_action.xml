@@ -12,17 +12,17 @@
 <!--        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>-->
 <!--    </record>-->
 
-    <record id="purchasing_actions_kanban_view_id" model="ir.actions.act_window.view">
-        <field name="sequence" eval="2"/>
-        <field name="view_mode">kanban</field>
-        <field name="view_id" ref="my_module.my_item_kanban_view_id"/>
-        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>
-    </record>
+<!--    <record id="purchasing_actions_kanban_view_id" model="ir.actions.act_window.view">-->
+<!--        <field name="sequence" eval="2"/>-->
+<!--        <field name="view_mode">kanban</field>-->
+<!--        <field name="view_id" ref="my_module.my_item_kanban_view_id"/>-->
+<!--        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>-->
+<!--    </record>-->
 
-    <record id="purchasing_actions_form_view_id" model="ir.actions.act_window.view">
-        <field name="sequence" eval="3"/>
-        <field name="view_mode">form</field>
-        <field name="view_id" ref="my_module.my_item_form_view_id"/>
-        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>
-    </record>
+<!--    <record id="purchasing_actions_form_view_id" model="ir.actions.act_window.view">-->
+<!--        <field name="sequence" eval="3"/>-->
+<!--        <field name="view_mode">form</field>-->
+<!--        <field name="view_id" ref="my_module.my_item_form_view_id"/>-->
+<!--        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>-->
+<!--    </record>-->
 </odoo>
