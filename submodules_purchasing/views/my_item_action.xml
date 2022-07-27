@@ -5,12 +5,12 @@
         <field name="res_model">my.item</field>
     </record>
 
-    <record id="purchasing_actions_tree_view_id" model="ir.actions.act_window.view">
-        <field name="sequence" eval="1"/>
-        <field name="view_mode">tree</field>
-        <field name="view_id" ref="my_module.my_item_tree_view_id"/>
-        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>
-    </record>
+<!--    <record id="purchasing_actions_tree_view_id" model="ir.actions.act_window.view">-->
+<!--        <field name="sequence" eval="1"/>-->
+<!--        <field name="view_mode">tree</field>-->
+<!--        <field name="view_id" ref="my_module.my_item_tree_view_id"/>-->
+<!--        <field name="act_window_id" ref="my_module.purchasing_actions_id"/>-->
+<!--    </record>-->
 
     <record id="purchasing_actions_kanban_view_id" model="ir.actions.act_window.view">
         <field name="sequence" eval="2"/>
